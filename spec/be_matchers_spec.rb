@@ -24,5 +24,6 @@ RSpec.describe 'be matchers' do
     expect(nil).to be_nil
     my_hash = { a: 5 }
     expect(my_hash[:b]).to be_nil
+    expect(my_hash[:b]).to be(nil)
   end
 end
